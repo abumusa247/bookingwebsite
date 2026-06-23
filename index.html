@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Buddy | Full-Stack Engineering Portfolio</title>
+    <style>
+        :root {
+            --bg-main: #0f172a;
+            --bg-card: #1e293b;
+            --accent: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 40px;
+        }
+        header h1 { font-size: 2.5rem; color: var(--accent); margin-bottom: 10px; }
+        header p { color: var(--text-muted); font-size: 1.2rem; }
+        
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: var(--accent);
+            border-left: 4px solid var(--accent);
+            padding-left: 15px;
+        }
+        
+        .timeline {
+            position: relative;
+            margin-bottom: 60px;
+        }
+        .timeline-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        .timeline-item h3 {
+            color: var(--text-main);
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .tag {
+            background: #0369a1;
+            color: #e0f2fe;
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+        .timeline-item p { color: var(--text-muted); margin-bottom: 15px; }
+        
+        code {
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            margin-top: 60px;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Freelance Buddy</h1>
+        <p>Full-Stack Engineering Blueprint & 18-Step Learning Journey</p>
+    </header>
+
+    <main>
+        <h2 class="section-title">Architectural Roadmap Milestones</h2>
+        <div class="timeline">
+            
+            <div class="timeline-item">
+                <h3>Step 1: Environment Setup & Modular Structuring <span class="tag">Infrastructure</span></h3>
+                <p>Orchestrated local runtime environments via XAMPP. Abstracted a messy flat directory view into a clean component-based framework (separating <code>includes/</code>, <code>config/</code>, and static templates) mirroring professional software engineering layouts.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Step 2: Relational Schema & Integrity Planning <span class="tag">Database</span></h3>
+                <p>Researched database normalization. Drafted a 1:N (one-to-many) relational link mapping separate users to booking rows using structural <code>FOREIGN KEY</code> constraints to ensure rigid transactional integrity.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Step 10: Stateless Cookie Persistence Tracking <span class="tag">State Isolation</span></h3>
+                <p>Designed client identity recognition models across secure network boundaries using long-term <code>setcookie()</code> initializations. Debugged transmission drops encountered over temporary public ngrok test tunnels.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Step 11: Automated Background Profile Provisioning <span class="tag">Automation</span></h3>
+                <p>Built a silent guest-bypass system that instantly intercepts new hardware keys and generates relational profile entries behind the scenes using high-entropy random identifiers, minimizing account onboarding friction.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Step 16: Admin Booking Dashboard & Data Fetching <span class="tag">Data Aggregation</span></h3>
+                <p>Constructed a unified dashboard matrix using complex SQL <code>INNER JOIN</code> queries to merge appointments with matching profile identities, resolving ambiguous column errors via strict table aliasing protocols.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Step 17: Tab-Based UI Condition Normalization <span class="tag">Dynamic UI</span></h3>
+                <p>Implemented single-page query filters leveraging URL string parameters (<code>$_GET</code>). Stabilized data lookups by implementing string mutation formatting cascades to counter casing mismatch errors between application and database.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Step 18: Cross-Device Auditing & Lifecycle Hardening <span class="tag">Optimization</span></h3>
+                <p>Conducted end-to-end device simulation testing over public tunnels. Maximized host performance by forcing database channel de-allocations, and secured data paths by engineering a multi-stage session demolition logout script.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Freelance Buddy Portfolio • Built with Clean Full-Stack Engineering Principles</p>
+    </footer>
+</div>
+
+</body>
+</html>
