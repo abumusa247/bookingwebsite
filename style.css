@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Buddy | Engineering Case Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">⚡ Freelance Buddy Portfolio</span>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#architecture">Architecture</a>
+                <a href="#case-studies">Case Studies</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section" id="overview">
+        <div class="hero-content">
+            <span class="badge">Full-Stack Blueprint</span>
+            <h1>Engineering a Frictionless Booking Engine</h1>
+            <p>An 18-step breakdown detailing the security patterns, relational data layers, and layout state normalization built into Freelance Buddy.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="architecture">
+            <h2 class="section-title">Core Architecture Overview</h2>
+            <div class="grid-layout">
+                <div class="info-card">
+                    <h3>Server Inclusion Mechanics</h3>
+                    <p>Abstracted standard layout components into secure <code>includes/</code> directories, optimizing code reuse across all dashboard endpoints.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Relational Integration</h3>
+                    <p>Enforced <code>InnoDB</code> foreign key mappings directly matching users to multiple real-time booking entities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="case-studies" class="spacing">
+            <h2 class="section-title">Technical Deep Dives & Verification</h2>
+
+            <div class="showcase-box">
+                <div class="showcase-text">
+                    <span class="step-tag">Step 3 & 18</span>
+                    <h3>The Fluid Flexbox Sticky Footer Model</h3>
+                    <p><strong>The Obstacle:</strong> Low-payload pages caused footer assets to float awkwardly up into the absolute center of the viewport browser layout.</p>
+                    <p><strong>The Fix:</strong> Implemented a flexible layout distribution rule across the parent layout. Re-assigned semantic <code>&lt;main&gt;</code> variables to dynamically stretch and automatically compress remaining white spaces.</p>
+                </div>
+                <div class="showcase-visual">
+                    <img src="images/sticky-footer-proof.png" alt="Sticky Footer Responsive Viewport Test" onerror="this.src='https://placehold.co/600x400/1e293b/f8fafc?text=Sticky+Footer+Viewport+Proof.png'">
+                </div>
+            </div>
+
+            <div class="showcase-box reverse">
+                <div class="showcase-text">
+                    <span class="step-tag">Step 11 & 17</span>
+                    <h3>Automated State Filter & Parameter Matching</h3>
+                    <p><strong>The Obstacle:</strong> Capitalization drifting inside client URL requests (<code>tab=approved</code>) caused silent row drops against strict database collations (<code>'Approved'</code>).</p>
+                    <p><strong>The Fix:</strong> Constructed a string mutation sanitization guard combining string-to-lower and first-character capitalization adjustments before injection array validation patterns.</p>
+                </div>
+                <div class="showcase-visual">
+                    <img src="images/admin-dashboard.png" alt="Admin Dashboard Dynamic Grid State View" onerror="this.src='https://placehold.co/600x400/1e293b/f8fafc?text=Admin+Dashboard+Filtering.png'">
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="system-footer">
+        <p>&copy; 2026 Freelance Buddy Case Study Portfolio • Engineered by Abu Musa</p>
+    </footer>
+
+</body>
+</html>
