@@ -58,6 +58,42 @@
                 </div>
             </div>
 
+            <div class="showcase-box">
+    <div class="showcase-text">
+        <span class="step-tag">Step 4, 10 & 11</span>
+        <h3>Cryptographic Hashing & Silent Guest Provisioning</h3>
+        <p><strong>The Obstacle:</strong> Standard sessions generated transient mobile tokens that completely vanished upon browser closure. Additionally, high-concurrency multi-device tests repeatedly crashed due to duplicate timestamp naming collisions in the unique database fields.</p>
+        <p><strong>The Fix:</strong> Upgraded raw text strings using native <code>password_hash()</code> security primitives with a roomier <code>VARCHAR(255)</code> database schema. Implemented a 30-day persistent cookie route anchored to absolute path scoping (<code>"/"</code>), driving a backend automated initialization loop that injects high-entropy random identifiers via <code>random_bytes()</code> without requiring manual user input.</p>
+    </div>
+    <div class="showcase-visual">
+        <img src="images/authentication.png" alt="Secure Authentication and Database Payload Proof" onerror="this.src='https://placehold.co/600x400/1e293b/f8fafc?text=Authentication+%26+Database+Proof.png'">
+    </div>
+</div>
+
+            <div class="showcase-box">
+    <div class="showcase-text">
+        <span class="step-tag">Step 14 & 17</span>
+        <h3>Dynamic DOM Grid Generation & Calendar Math</h3>
+        <p><strong>The Obstacle:</strong> Building a scheduling view originally suffered from layout constraints when wrapped tightly inside a split-row flexbox. Furthermore, programmatic layout indexing required automated day-count wrapping calculations without hardcoding month ranges.</p>
+        <p><strong>The Fix:</strong> Un-nested the element block out of the row wrapper to claim full container width under explicit <code>box-sizing: border-box</code> rules. Wrote a client-side JavaScript date matrix engine that looks backward automatically by passing a <code>0</code> day parameter to establish month lengths, dynamically pushing automated grid spacers underneath correct weekday headers.</p>
+    </div>
+    <div class="showcase-visual">
+        <img src="images/calendar.png" alt="Dynamic Responsive Calendar Grid Showcase" onerror="this.src='https://placehold.co/600x400/1e293b/f8fafc?text=Dynamic+Calendar+Grid+Proof.png'">
+    </div>
+</div>
+            <div class="showcase-box">
+    <div class="showcase-text">
+        <span class="step-tag">Step 16 & 17</span>
+        <h3>Relational Matrix Joins & Interface State Filters</h3>
+        <p><strong>The Obstacle:</strong> Run-time query pipelines threw ambiguous column conflicts when matching identical primary key fields across independent data tables. On the front-end, lowercase query string arguments (<code>?tab=approved</code>) caused silent null-set text drops against capitalized schema properties.</p>
+        <p><strong>The Fix:</strong> Structured an optimized <code>INNER JOIN</code> database statement utilizing explicit table aliasing (<code>bookings AS b</code>) to safely stitch fields via dot-notations. Connected a backend case-normalization routine (<code>ucfirst(strtolower())</code>) that intercepts, unifies, and binds incoming parameters securely via compound prepared queries.</p>
+    </div>
+    <div class="showcase-visual">
+        <img src="images/dashboard.png" alt="Administrative Matrix Dashboard Viewport Test" onerror="this.src='https://placehold.co/600x400/1e293b/f8fafc?text=Admin+Dashboard+Matrix+Proof.png'">
+    </div>
+</div>
+            
+
             <div class="showcase-box reverse">
                 <div class="showcase-text">
                     <span class="step-tag">Step 11 & 17</span>
